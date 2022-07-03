@@ -33,6 +33,26 @@ class DS_blog
 	}
 	public function ds_blog_blog_code()
 	{
+
+		if(!isset($_GET['page'])) $_GET['page'] = 1;
+		
+		
+		$posts_per_page = 10;
+		$page = ($_GET['page'] - 1) * $posts_per_page;
+
+
+        $args = array(
+            'order'          => 'DESC', //'RAND', //ASC,DESC
+            'orderby'        => $order,
+            'offset'         => "ID",
+            'post_type'      => 'post',
+            'post_status'    => 'publish',
+            'posts_per_page' => $posts_per_page,
+        );
+
+
+        $posts = get_posts($args);
+
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/blog/blog.php';
 	}
 
