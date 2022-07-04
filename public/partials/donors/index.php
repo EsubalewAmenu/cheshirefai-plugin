@@ -6,7 +6,7 @@
         <div class="container">
             <div class="session-title row">
                 <p>KNOW AND COME TO JOIN OUR</p>
-                <h2>UPCOMING EVENTS</h2>
+                <h2>OUR DONORS</h2>
             </div>
             <div class="events-row row">
                 <div class="col-md-4">
