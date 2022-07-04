@@ -4,7 +4,7 @@
        <div class="we-are-making container-fluid">
         <div class="row">
             <div class="col-lg-6 imag-part">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/count.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/g4.jpg" alt="">
             </div>
             <div class="col-lg-6 text-part">
                 <h3>DIFFERENCE WE ARE MAKING</h3>

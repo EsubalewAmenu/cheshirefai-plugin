@@ -43,8 +43,8 @@ class DS_blog
 
         $args = array(
             'order'          => 'DESC', //'RAND', //ASC,DESC
-            'orderby'        => $order,
-            'offset'         => "ID",
+            'orderby'        => "ID",
+            'offset'         => $page,
             'post_type'      => 'post',
             'post_status'    => 'publish',
             'posts_per_page' => $posts_per_page,

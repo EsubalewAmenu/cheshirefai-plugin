@@ -37,6 +37,17 @@ class DS_home
 	}
 	public function ds_home_our_blog_code()
 	{
+		$args = array(
+            'order'          => 'DESC', //'RAND', //ASC,DESC
+            'orderby'        => "ID",
+            'post_type'      => 'post',
+            'post_status'    => 'publish',
+            'posts_per_page' => 2,
+        );
+
+
+        $posts = get_posts($args);
+
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/home/our_blog.php';
 	}
 	public function ds_home_recent_causes_code()

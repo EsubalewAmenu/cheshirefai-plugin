@@ -11,7 +11,7 @@
             <div class="events-row row">
                 <div class="col-md-4">
                     <div class="event-card">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event/e1.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g1.jpg" alt="">
                         <div class="event-detail">
                             <h4>Fund Raising Event</h4>
                             <p>Estibulum at maximus neque. Etiam interdum fermentum dolor, eget placerat lorem.</p>
@@ -32,7 +32,7 @@
                 </div>
                  <div class="col-md-4">
                     <div class="event-card">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event/e2.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g2.jpg" alt="">
                         <div class="event-detail">
                             <h4>Fund Raising Event</h4>
                             <p>Estibulum at maximus neque. Etiam interdum fermentum dolor, eget placerat lorem.</p>
@@ -53,7 +53,7 @@
                 </div>
                  <div class="col-md-4">
                     <div class="event-card">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event/e3.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g3.jpg" alt="">
                         <div class="event-detail">
                             <h4>Fund Raising Event</h4>
                             <p>Estibulum at maximus neque. Etiam interdum fermentum dolor, eget placerat lorem.</p>
