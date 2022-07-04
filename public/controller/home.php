@@ -29,7 +29,7 @@ class DS_home
 
 	public function ds_home_causes_code()
 	{
-	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/home/causes.php';
+	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/causes/donate.php';
 	}
 	public function ds_home_events_code()
 	{

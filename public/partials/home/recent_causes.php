@@ -15,7 +15,7 @@
                     
                 
                 <div class="caus-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g1.jpg" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallary/g1.jpg" alt="">
                 </div>
                 <div class="caus-info row no-margin">
                     <span class="left-info col-6">
@@ -43,7 +43,7 @@
                     
                 
                 <div class="caus-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g2.jpg" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallary/g2.jpg" alt="">
                 </div>
                 <div class="caus-info row no-margin">
                     <span class="left-info col-6">
@@ -71,7 +71,7 @@
                     
                 
                 <div class="caus-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallary/g3.jpg" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallary/g3.jpg" alt="">
                 </div>
                 <div class="caus-info row no-margin">
                     <span class="left-info col-6">

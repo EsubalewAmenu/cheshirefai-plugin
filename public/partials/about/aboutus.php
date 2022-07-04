@@ -11,8 +11,14 @@
             <div class="about-row row">
                 <div class="col-md-8">
                     <div class="abut-detail">
-                         <h4>BUILDING SCHOOL IN AFRICAN COMMUNITIES.</h4>
-                        <p>Integer vulputate vehicula dolor a eleifend. Duis aliquam condimentum sapien, eget tempor justo. Aenean porttitor nibh metus, sollicitudin egestas metus posuere et . Fusce egestas volutpat metus, in sodales sem bibendum porta. Nunc hendrerit nunc sit </p> <p> Amet tellus posuere, at malesuada sem gravida. Integer maximus ultricies augue, at dapibus elit bibendum consequat. Cras faucibus tellus eleifend, fermentum purus in, dapibus sapien. Praesent nec ornare risus. Etiam iaculis, ligula vel gravida vestibulum, urna justo posuere ante, id pretium massa arcu sed mi. Nunc a sollicitudin sem. Duis tempus</p>
+                         <h4>SOMETHING ABOUT US</h4>
+                        <p>Cheshire Foundation Ethiopia recently renamed as Cheshire Foundation–Action for Inclusion (CF-AI) is an indigenous charity organization established in 1985. 
+
+The organization is reregistered for the second time under the recent Ethiopian Charities & Societies Proclamation 621/2009 with the registration No. 0298.</p>
+<p>Conducting base line survey/house to house disability and socio-economic assessment along with scanning local service providing institutions is always an entry point for all CF-AI’s CBR intervention.
+</p>
+<p>Structurally, CF-AI has its own General Assembly, the supreme power, the Management Board (elected by the general assembly) responsible to provide strategic directions for the organization and secretariat office led by an executive director coordinating the day to day activity of the organization.
+</p>
                     </div>
                    
 
@@ -41,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_img.png" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/about_img.png" alt="">
                 </div>
             </div>
         </div>

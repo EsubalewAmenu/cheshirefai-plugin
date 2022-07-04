@@ -10,8 +10,10 @@
                         <div class="servic-round">
                            <p>Donate</p> 
                         </div>
-                        <h4>BECOME A DONATOR</h4>
-                        <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                        <h4>Disability Prevention activities</h4>
+                        <p> Awareness education on major causes of disability and its prevention methods
+• Primary health care education
+• Hygiene and sanitation </p>
                     </div>
                 </div>
                  <div class="col-md-4">
@@ -19,8 +21,9 @@
                         <div class="servic-round">
                             <p>Donate</p> 
                         </div>
-                        <h4>BECOME A Volunteer</h4>
-                        <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                        <h4>Inclusion / Mainstreaming Activities </h4>
+                        <p>Reducing the existing physical, social and cultural/attitudinal barriers
+• Creating access to economic empowerment opportunities </p>
                     </div>
                 </div>
                  <div class="col-md-4">
@@ -28,8 +31,10 @@
                         <div class="servic-round">
                             <p>Donate</p> 
                         </div>
-                        <h4>BECOME A DONATOR</h4>
-                        <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                        <h4>Rehabilitation activities</h4>
+                        <p> Conduct home to home disability and socio-economic assessment
+• Develop Joint intervention plan and sharing responsibilities with all parties
+• Provide counseling. </p>
                     </div>
                 </div>
             </div>
