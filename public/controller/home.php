@@ -33,7 +33,7 @@ class DS_home
 	}
 	public function ds_home_events_code()
 	{
-	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/home/events.php';
+	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/donors/index.php';
 	}
 	public function ds_home_our_blog_code()
 	{

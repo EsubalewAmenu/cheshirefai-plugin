@@ -6,7 +6,7 @@
         <div class="container">
             <div class="session-title">
                 <p>Help us to Achieve our Goal</p>
-                <h2>Child Education</h2>
+                <h2>CHESHIRE FOUNDATION</h2>
             </div>
             <div class="about-row row">
                 <div class="col-md-8">
@@ -47,7 +47,7 @@ The organization is reregistered for the second time under the recent Ethiopian 
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/about_img.png" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallery/g1.jpg" alt="">
                 </div>
             </div>
         </div>

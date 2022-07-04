@@ -4,7 +4,7 @@
        <div class="we-are-making container-fluid">
         <div class="row">
             <div class="col-lg-6 imag-part">
-                <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/awareness_7.png" alt="">
+                <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallery/g1.jpg" alt="">
             </div>
             <div class="col-lg-6 text-part">
                 <h3>DIFFERENCE WE ARE MAKING</h3>
