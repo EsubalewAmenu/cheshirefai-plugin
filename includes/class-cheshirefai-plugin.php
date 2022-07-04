@@ -181,7 +181,9 @@ class Cheshirefai_Plugin {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
 		$DS_causes = new DS_causes();
-		$this->loader->add_shortcode( 'DS_causes_code', $DS_causes, 'DS_causes_code' );
+		$this->loader->add_shortcode( 'ds_causes_title_code', $DS_causes, 'ds_causes_title_code' );
+		$this->loader->add_shortcode( 'ds_causes_donate_code', $DS_causes, 'ds_causes_donate_code' );
+
 		$DS_donors = new DS_donors();
 		$this->loader->add_shortcode( 'ds_donors_code', $DS_donors, 'ds_donors_code' );
 
