@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row session-title">
                 <h2>Our Blog</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
             </div>
             <div class="row blog-row">
 
