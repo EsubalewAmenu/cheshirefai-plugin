@@ -134,6 +134,7 @@ class Cheshirefai_Plugin {
 		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/controller/donors.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/controller/gallery.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/controller/recent_causes.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/controller/causes.php';
 
 		$this->loader = new Cheshirefai_Plugin_Loader();
 
@@ -182,6 +183,8 @@ class Cheshirefai_Plugin {
 		$this->loader->add_action('init', $DS_Admin_Gallery, 'ds_gallery_post_type_registration_init', 1, 1);
 		$DS_Admin_recent_causes = new DS_Admin_recent_causes();
 		$this->loader->add_action('init', $DS_Admin_recent_causes, 'ds_recent_causes_post_type_registration_init', 1, 1);
+		$DS_Admin_causes = new DS_Admin_causes();
+		$this->loader->add_action('init', $DS_Admin_causes, 'ds_causes_post_type_registration_init', 1, 1);
 	}
 
 	/**

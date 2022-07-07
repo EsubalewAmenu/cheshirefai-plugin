@@ -29,6 +29,12 @@ class DS_home
 
 	public function ds_home_causes_code()
 	{
+        $args = array(
+            'post_type'      => 'causes',
+            'post_status'    => 'publish',
+            'posts_per_page' => 3,
+        );
+        $causes = get_posts($args);
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/causes/donate.php';
 	}
 	public function ds_home_events_code()
@@ -37,6 +43,7 @@ class DS_home
         $args = array(
             'post_type'      => 'donors',
             'post_status'    => 'publish',
+            'posts_per_page' => 3,
         );
         $donors = get_posts($args);
 		

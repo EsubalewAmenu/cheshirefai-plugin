@@ -36,7 +36,7 @@ class DS_donors
         );
 
 
-        $posts = get_posts($args);
+        $donors = get_posts($args);
 
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/donors/index.php';
 	}

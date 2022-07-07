@@ -33,6 +33,12 @@ class DS_causes
 	}
 	public function ds_causes_donate_code()
 	{
+        $args = array(
+            'post_type'      => 'causes',
+            'post_status'    => 'publish',
+            'posts_per_page' => 3,
+        );
+        $causes = get_posts($args);
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/causes/donate.php';
 	}
 
