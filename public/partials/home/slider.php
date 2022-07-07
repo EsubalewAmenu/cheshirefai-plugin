@@ -10,7 +10,7 @@
                 <div class="item">
                     <div class="slider-img">
                         <?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($slider->ID), 'thumbnail_size'); ?>
-                        <img src="<?php echo $src[0] ?>" alt="">
+                        <img src="<?php echo $src[0] ?>" alt="" height="550px">
                     </div>
                     <div class="container">
                         <div class="row">
