@@ -24,7 +24,7 @@
                                     <!-- <i class="fas fa-eye"><small>(12)</small></i>   -->
                                     <i class="fas fa-comments"><small>(<?php echo get_comments_number($filtered_post->ID); ?>)</small></i>
                                 </p>
-                                <!-- <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard shortcut is the same keyboard shortcut is the </p> -->
+                                <p class="blog-desic"><?php $result = substr($filtered_post->post_content, 0, 125); echo strip_tags($result); ?> </p>
                                 Read More <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>

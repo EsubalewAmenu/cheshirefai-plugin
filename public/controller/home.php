@@ -33,6 +33,13 @@ class DS_home
 	}
 	public function ds_home_events_code()
 	{
+
+        $args = array(
+            'post_type'      => 'donors',
+            'post_status'    => 'publish',
+        );
+        $donors = get_posts($args);
+		
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/donors/index.php';
 	}
 	public function ds_home_our_blog_code()

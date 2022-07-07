@@ -9,14 +9,14 @@
             </div>
             <div class="events-row row">
 
-<?php foreach ($posts as $post) { ?>
+<?php foreach ($donors as $donor) { ?>
                 <div class="col-md-4">
                     <div class="event-card">
-                    <?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail_size'); ?>
+                    <?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($donor->ID), 'thumbnail_size'); ?>
                         <img src="<?php echo $src[0] ?>" alt="">
                         <div class="event-detail">
-                            <h4><?php echo $post->post_title; ?></h4>
-                            <p><?php $result = substr($post->post_content, 0, 125); echo strip_tags($result); ?></p>
+                            <h4><?php echo $donor->post_title; ?></h4>
+                            <p><?php $result = substr($donor->post_content, 0, 125); echo strip_tags($result); ?></p>
 
                             <!-- <h6>25 <sup>Th</sup> Mar 2020</h6> -->
                         </div>
