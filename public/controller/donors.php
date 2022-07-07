@@ -29,6 +29,15 @@ class DS_donors
 
 	public function ds_donors_code()
 	{
+
+        $args = array(
+            'post_type'      => 'donors',
+            'post_status'    => 'publish',
+        );
+
+
+        $posts = get_posts($args);
+
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/donors/index.php';
 	}
 

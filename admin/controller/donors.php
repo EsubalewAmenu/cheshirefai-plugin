@@ -71,7 +71,7 @@ class DS_Admin_donors
             'show_ui'            => true,
             'show_in_menu'       => true,
             'query_var'          => true,
-            'rewrite'            => array('slug' => 'Donors'),
+            'rewrite'            => array('slug' => 'donors'),
             'capability_type'    => 'post',
             'has_archive'        => true,
             'hierarchical'       => false,
