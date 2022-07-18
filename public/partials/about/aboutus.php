@@ -22,7 +22,7 @@ The organization is reregistered for the second time under the recent Ethiopian 
                     </div>
                    
 
-                    <div class="row diag-ro">
+                    <!-- <div class="row diag-ro">
                         <div class="about-diag">
                             <div class="icon"><i class="fas fa-arrow-right"></i></div>
                             <div class="tex">
@@ -44,10 +44,10 @@ The organization is reregistered for the second time under the recent Ethiopian 
                                 <p>Our initial target</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallery/g1.jpg" alt="">
+                    <img src="<?php echo ds_cheshirefai_PLAGIN_URL; ?>/assets/images/gallery/g1.jpg" alt="" style="width:200px;height:200px;border-radius:50%">
                 </div>
             </div>
         </div>

@@ -16,9 +16,9 @@
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                                 <div class="animated bounceInDown slider-captions">
-                                    <h1 class="slider-title"><?php echo $slider->post_title; ?></h1>
-                                    <p class="slider-text hidden-xs"><?php echo $slider->post_content; ?></p>
-
+                                    <h4 class="slider-title"><?php echo $slider->post_title; ?></h4>
+                                    <!-- <p class="slider-text hidden-xs"><?php echo $slider->post_content; ?></p> -->
+                                    <h5 class="slider-title"><?php echo $slider->post_content; ?></h5>
                                 </div>
                             </div>
                         </div>
