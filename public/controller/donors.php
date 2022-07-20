@@ -41,4 +41,18 @@ class DS_donors
 	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/donors/index.php';
 	}
 
+	public function ds_recent_causes_code()
+	{
+
+        $args = array(
+            'post_type'      => 'recent_causes',
+            'post_status'    => 'publish',
+        );
+
+
+        $recent_causes = get_posts($args);
+		
+	include_once ds_cheshirefai_PLAGIN_DIR . '/public/partials/home/recent_causes.php';
+	}
+
 }

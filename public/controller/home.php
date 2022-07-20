@@ -70,6 +70,7 @@ class DS_home
         $args = array(
             'post_type'      => 'recent_causes',
             'post_status'    => 'publish',
+            'posts_per_page' => 3,
         );
 
 

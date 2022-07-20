@@ -207,7 +207,8 @@ class Cheshirefai_Plugin {
 
 		$DS_donors = new DS_donors();
 		$this->loader->add_shortcode( 'ds_donors_code', $DS_donors, 'ds_donors_code' );
-
+		$this->loader->add_shortcode( 'ds_recent_causes_code', $DS_donors, 'ds_recent_causes_code' );
+		
 		$DS_about = new DS_about();
 		$this->loader->add_shortcode( 'ds_about_title_code', $DS_about, 'ds_about_title_code' );
 		$this->loader->add_shortcode( 'ds_about_about_us_code', $DS_about, 'ds_about_about_us_code' );
